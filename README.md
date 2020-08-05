@@ -1,7 +1,10 @@
 # freeswitch-image-builder
 
-Builds an OCI-Image with freeswitch according to [this
+Builds an OCI-Image with freeswitch 1.10 without video-support inspired by [this
 README](https://github.com/signalwire/freeswitch/tree/master/docker/base_image).
+This is a work in progress and not done yet, please use with care. The next
+step is to compile freeswitch instead of installing it from debian-packeges, to
+get rid of the video-deps and the video-parts of freeswitch.
 
 This script is only tested on a default-Install of [fedora
 silverblue 32](https://silverblue.fedoraproject.org/). But it should work on
