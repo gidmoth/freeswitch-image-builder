@@ -1,3 +1,6 @@
+As far as gidmoth is the author, that means for everything except the
+contents of the freeswitch-subdirectory, the following Licence is given:
+
 BSD 2-Clause License
 
 Copyright (c) 2020, gidmoth
@@ -23,3 +26,6 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+All contents of the freeswich-subdirectory are not covered by this Licence,
+but by the Licences therein.

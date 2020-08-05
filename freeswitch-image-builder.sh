@@ -1,12 +1,7 @@
 #!/bin/bash
 
 # Env (customize to your env)
-FS_VERSION="v1.10"
 IMAGETAG="1.10"
-
-# get the sources and checkout desired branch
-git clone https://github.com/signalwire/freeswitch.git
-cd freeswitch && git checkout origin/$FS_VERSION && cd ./..
 
 # build the debian-image to build the freeswitch-image
 podman build -t freeswitch-image-builder .
